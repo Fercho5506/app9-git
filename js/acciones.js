@@ -20,11 +20,11 @@ function  onDeviceReady(){
 	function getPosition(){
 		
 		var options ={
-			enableHighAccuracy : true,
+			enableHighAccuracy: true,
 			maximumAge: 3600000
 		}
 		
-		var watchID=navigator.geolocation.getCurrentPosition(onSuccess. onError, options);
+		var watchID=navigator.geolocation.getCurrentPosition(onSuccess, onError, options);
 		
 		function onSuccess(position){
 			
@@ -46,8 +46,8 @@ function  onDeviceReady(){
 	function watchPosition(){
 		
 		var options={
-			maximumAge : 3600000,
-			timeout: 3000,
+			maximumAge:3600000,
+			timeout:3000,
 			enableHighAccuracy :true,
 		}
 		
